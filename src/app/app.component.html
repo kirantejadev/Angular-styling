@@ -1,21 +1,755 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="application_wrapper">
+  <br>
+   <div class="container">
+       <div class="text_color">
+          <h2>Contextual Colors & Backgrounds</h2>
+          <p class="text-muted">This text is muted.</p>
+          <p class="text-primary">This text is important.</p>
+          <p class="text-success">This text indicates success.</p>
+          <p class="text-info">This text represents some information.</p>
+          <p class="text-warning">This text represents a warning.</p>
+          <p class="text-danger">This text represents danger.</p>
+          <p class="text-secondary">Secondary text.</p>
+          <p class="text-dark">This text is dark grey.</p>
+          <p class="text-body">Default body color (often black).</p>
+          <p class="text-light">This text is light grey (on white background).</p>
+          <p class="text-white">This text is white (on white background).</p>
+          <p class="text-black-50">Black text with 50% opacity on white background</p>
+          <p class="text-white-50 bg-dark">White text with 50% opacity on black background</p>
+          <p class="bg-primary text-white">This text is important.</p>
+          <p class="bg-success text-white">This text indicates success.</p>
+          <p class="bg-info text-white">This text represents some information.</p>
+          <p class="bg-warning text-white">This text represents a warning.</p>
+          <p class="bg-danger text-white">This text represents danger.</p>
+          <p class="bg-secondary text-white">Secondary background color.</p>
+          <p class="bg-dark text-white">Dark grey background color.</p>
+          <p class="bg-light text-dark">Light grey background color.</p>
+       </div>
+       <hr>
+       <div class="responsive_table">
+          <h2>Responsive table</h2>
+          <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Age</th>
+                  <th>City</th>
+                  <th>Country</th>
+                  <th>Sex</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                  <th>Example</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>35</td>
+                  <td>New York</td>
+                  <td>USA</td>
+                  <td>Female</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>35</td>
+                  <td>New York</td>
+                  <td>USA</td>
+                  <td>Female</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>35</td>
+                  <td>New York</td>
+                  <td>USA</td>
+                  <td>Female</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Anna</td>
+                  <td>Pitt</td>
+                  <td>35</td>
+                  <td>New York</td>
+                  <td>USA</td>
+                  <td>Female</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+       </div>
+       <hr>
 
-<router-outlet></router-outlet>
+       <div class="bootstrap_images">
+          <div class="row">
+             <div class="col-sm-4"> 
+                <h2>Rounded Corners image</h2>
+                <img src="assets/images/cinqueterre.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"> 
+             </div>
+             <div class="col-sm-4"> 
+                <h2>Circle image</h2>
+                <img src="assets/images/cinqueterre.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"> 
+             </div>
+             <div class="col-sm-4"> 
+                <h2>Image fluid</h2>
+                <img class="img-fluid" src="assets/images/img_chania.jpg" alt="Chania" width="460" height="345"> 
+             </div>
+          </div>
+       </div>
+       <hr>
+      
+       <div class="jumbotron">
+          <h1>Bootstrap jumbotron</h1>      
+          <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+        </div>
+        <hr>
+        
+        <div class="bootstrap_alert">
+        <h2>Alerts</h2>
+        <div class="alert alert-success">
+          <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info">
+          <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning">
+          <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger">
+          <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary">
+          <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary">
+          <strong>Secondary!</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark">
+          <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light">
+          <strong>Light!</strong> Light grey alert.
+        </div>
+        <hr>
+
+        <h2>Alert Links</h2>
+        <div class="alert alert-success">
+          <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-info">
+          <strong>Info!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-warning">
+          <strong>Warning!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-danger">
+          <strong>Danger!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-primary">
+          <strong>Primary!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-secondary">
+          <strong>Secondary!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-dark">
+          <strong>Dark!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-light">
+          <strong>Light!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <hr>
+
+        <h2>Alerts</h2>
+        <p>The button with class="close" and data-dismiss="alert" is used to close the alert box.</p>
+        <p>The alert-dismissible class adds some extra padding to the close button.</p>
+        <div class="alert alert-success alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Secondary!</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Light!</strong> Light grey alert.
+        </div>
+
+        </div>
+        <hr>
+        
+        <div class="bootstrap_buttons">
+            <h2>Button Styles</h2>
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button> 
+            <hr>
+
+            <h2>Button Outline</h2>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-outline-light text-dark">Light</button>
+            <hr>
+
+            <h2>Button Sizes</h2>
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary btn-md">Default</button>    
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+            <hr>
+
+            <h2>Button States</h2>
+            <button type="button" class="btn btn-primary">Primary Button</button>
+            <button type="button" class="btn btn-primary active">Active Primary</button>
+            <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+            <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+            <hr>
+
+            <h2>Spinner Buttons</h2>                                                  
+            <button class="btn btn-primary">
+              <span class="spinner-border spinner-border-sm"></span>
+            </button>
+
+            <button class="btn btn-primary">
+              <span class="spinner-border spinner-border-sm"></span>
+              Loading..
+            </button>
+            
+            <button class="btn btn-primary" disabled>
+              <span class="spinner-border spinner-border-sm"></span>
+              Loading..
+            </button>
+            
+            <button class="btn btn-primary" disabled>
+              <span class="spinner-grow spinner-grow-sm"></span>
+              Loading..
+            </button>
+        </div>
+        <hr>
+
+        <div class="bootstrap_btn_grp">
+            <h2>Button Group</h2>
+            <p>The .btn-group class creates a button group:</p>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary">Apple</button>
+              <button type="button" class="btn btn-primary">Samsung</button>
+              <button type="button" class="btn btn-primary">Sony</button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="bootstrap_btn_grp_vertical">
+            <h2>Vertical Button Group</h2>
+            <p>Use the .btn-group-vertical class to create a vertical button group:</p>
+            <div class="btn-group-vertical">
+              <button type="button" class="btn btn-primary">Apple</button>
+              <button type="button" class="btn btn-primary">Samsung</button>
+              <button type="button" class="btn btn-primary">Sony</button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="bootstrap_btn_dropdown">
+            <h2>Nesting Button Groups</h2>
+            <p>Nest button groups to create dropdown menus:</p>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary">Apple</button>
+              <button type="button" class="btn btn-primary">Samsung</button>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Sony
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Tablet</a>
+                  <a class="dropdown-item" href="#">Smartphone</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <hr>
+
+        <div>
+            <h2>Split Buttons</h2>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary">Sony</button>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Tablet</a>
+                <a class="dropdown-item" href="#">Smartphone</a>
+              </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="bootstrap_Badges">
+            <h2>Badges</h2>
+            <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+            <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+            <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+            <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+            <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+            <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+            <hr>
+
+            <h2>Contextual Badges</h2>
+            <span class="badge badge-primary">Primary</span>
+            <span class="badge badge-secondary">Secondary</span>
+            <span class="badge badge-success">Success</span>
+            <span class="badge badge-danger">Danger</span>
+            <span class="badge badge-warning">Warning</span>
+            <span class="badge badge-info">Info</span>
+            <span class="badge badge-light">Light</span>
+            <span class="badge badge-dark">Dark</span>
+            <hr>
+
+            <h2>Badge inside a Button</h2>
+            <button type="button" class="btn btn-primary">
+              Messages <span class="badge badge-light">4</span>
+            </button>
+            <button type="button" class="btn btn-danger">
+              Notifications <span class="badge badge-light">7</span>
+            </button>
+        </div>
+        <hr>
+
+        <div class="bootstrap_progressbar">
+            <h2>Colored Progress Bars</h2>
+            <p>Use any of the contextual color classes to change the color of the progress bar:</p> 
+            <!-- Blue -->
+            <div class="progress">
+              <div class="progress-bar" style="width:10%"></div>
+            </div><br>
+
+            <!-- Green -->
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width:20%"></div>
+            </div><br>
+
+            <!-- Turquoise -->
+            <div class="progress">
+              <div class="progress-bar bg-info" style="width:30%"></div>
+            </div><br>
+
+            <!-- Orange -->
+            <div class="progress">
+              <div class="progress-bar bg-warning" style="width:40%"></div>
+            </div><br>
+
+            <!-- Red -->
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width:50%"></div>
+            </div><br>
+
+            <!-- White -->
+            <div class="progress border">
+              <div class="progress-bar bg-white" style="width:60%"></div>
+            </div><br>
+
+            <!-- Grey -->
+            <div class="progress">
+              <div class="progress-bar bg-secondary" style="width:70%"></div>
+            </div><br>
+
+            <!-- Light Grey -->
+            <div class="progress border">
+              <div class="progress-bar bg-light" style="width:80%"></div>
+            </div><br>
+
+            <!-- Dark Grey -->
+            <div class="progress">
+              <div class="progress-bar bg-dark" style="width:90%"></div>
+            </div>
+
+            <hr>
+
+            <h2>Striped Progress Bars</h2>
+            <p>The .progress-bar-striped class adds stripes to the progress bars:</p> 
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" style="width:30%"></div>
+            </div>
+            <br>
+            <div class="progress">
+              <div class="progress-bar bg-success progress-bar-striped" style="width:40%"></div>
+            </div>
+            <br>
+            <div class="progress">
+              <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
+            </div>
+            <br>
+            <div class="progress">
+              <div class="progress-bar bg-warning progress-bar-striped" style="width:60%"></div>
+            </div>
+            <br>
+            <div class="progress">
+              <div class="progress-bar bg-danger progress-bar-striped" style="width:70%"></div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="bootstrap_spinner">
+            <h2>Colored Spinners</h2>                                                  
+            <div class="spinner-border text-muted"></div>
+            <div class="spinner-border text-primary"></div>
+            <div class="spinner-border text-success"></div>
+            <div class="spinner-border text-info"></div>
+            <div class="spinner-border text-warning"></div>
+            <div class="spinner-border text-danger"></div>
+            <div class="spinner-border text-secondary"></div>
+            <div class="spinner-border text-dark"></div>
+            <div class="spinner-border text-light"></div>
+            <hr>
+
+            <h2>Growing Spinners</h2>                                                  
+            <div class="spinner-grow text-muted"></div>
+            <div class="spinner-grow text-primary"></div>
+            <div class="spinner-grow text-success"></div>
+            <div class="spinner-grow text-info"></div>
+            <div class="spinner-grow text-warning"></div>
+            <div class="spinner-grow text-danger"></div>
+            <div class="spinner-grow text-secondary"></div>
+            <div class="spinner-grow text-dark"></div>
+            <div class="spinner-grow text-light"></div>
+        </div>
+        <hr>
+
+        <div class="bootstrap_pagination">
+            <h2>Pagination - Active State</h2>
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+            <hr>
+
+            <h2>Breadcrumbs</h2>
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Photos</a></li>
+              <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+              <li class="breadcrumb-item"><a href="#">Italy</a></li>
+              <li class="breadcrumb-item active">Rome</li>
+            </ul>
+        </div>
+
+        <div class="bootstrap_list">
+            <h2>List Group With Linked Items</h2>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">First item</a>
+              <a href="#" class="list-group-item list-group-item-action">Second item</a>
+              <a href="#" class="list-group-item list-group-item-action">Third item</a>
+            </div>
+            <hr>
+
+            <h2>List Group With Contextual Classes</h2>
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-success">Success item</li>
+              <li class="list-group-item list-group-item-secondary">Secondary item</li>
+              <li class="list-group-item list-group-item-info">Info item</li>
+              <li class="list-group-item list-group-item-warning">Warning item</li>
+              <li class="list-group-item list-group-item-danger">Danger item</li>
+              <li class="list-group-item list-group-item-primary">Primary item</li>
+              <li class="list-group-item list-group-item-dark">Dark item</li>
+              <li class="list-group-item list-group-item-light">Light item</li>
+            </ul>
+            <hr>
+
+            <h2>Linked Items With Contextual Classes</h2>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">Action item</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-success">Success item</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Secondary item</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-info">Info item</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Warning item</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Danger item</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Primary item</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Dark item</a>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-light">Light item</a>
+            </div>
+            <hr>
+
+            <h2>List Group With Badges</h2>
+            <p>Combine .badge classes with utility/helper classes to add badges inside the list group:</p>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Inbox
+                <span class="badge badge-primary badge-pill">12</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Ads
+                <span class="badge badge-primary badge-pill">50</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Junk
+                <span class="badge badge-primary badge-pill">99</span>
+              </li>
+            </ul>
+        </div>
+        <hr>
+
+        <div class="bootstraop_cards">
+            <h2>Cards with Contextual Classes</h2>
+            <div class="card">
+              <div class="card-body">Basic card</div>
+            </div>
+            <br>
+            <div class="card bg-primary text-white">
+              <div class="card-body">Primary card</div>
+            </div>
+            <br>
+            <div class="card bg-success text-white">
+              <div class="card-body">Success card</div>
+            </div>
+            <br>
+            <div class="card bg-info text-white">
+              <div class="card-body">Info card</div>
+            </div>
+            <br>
+            <div class="card bg-warning text-white">
+              <div class="card-body">Warning card</div>
+            </div>
+            <br>
+            <div class="card bg-danger text-white">
+              <div class="card-body">Danger card</div>
+            </div>
+            <br>
+            <div class="card bg-secondary text-white">
+              <div class="card-body">Secondary card</div>
+            </div>
+            <br>
+            <div class="card bg-dark text-white">
+              <div class="card-body">Dark card</div>
+            </div>
+            <br>
+            <div class="card bg-light text-dark">
+              <div class="card-body">Light card</div>
+            </div>
+
+            <hr>
+
+            <h2>Card Image</h2>
+            <p>Image at the top (card-img-top):</p>
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+            </div>
+            <br>
+            
+            <p>Image at the bottom (card-img-bottom):</p>
+            <div class="card" style="width:400px">
+              <div class="card-body">
+                <h4 class="card-title">Jane Doe</h4>
+                <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+              <img class="card-img-bottom" src="img_avatar6.png" alt="Card image" style="width:100%">
+            </div>
+            <hr>
+
+            <h2>Cards Columns</h2>
+            <p>The .card-columns class creates a masonry-like grid of cards. The layout will automatically adjust as you insert more cards.</p>
+            <p><strong>Note:</strong> The cards are displayed vertically on small screens (less than 576px):</p>
+            <div class="card-columns">
+              <div class="card bg-primary">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the first card</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the second card</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the third card</p>
+                </div>
+              </div>
+              <div class="card bg-danger">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the fourth card</p>
+                </div>
+              </div>  
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the fifth card</p>
+                </div>
+              </div>
+              <div class="card bg-info">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the sixth card</p>
+                </div>
+              </div>
+            </div>
+            <hr>
+
+            <h2>Card Deck</h2>
+            <p>The .card-deck class creates an <strong>equal height and width</strong> grid of cards. The layout will automatically adjust as you insert more cards.</p>
+            <p>In this example we have added extra content to the first card, to make it taller. Notice how the other cards follow.</p>
+            <p><strong>Note:</strong> The cards are displayed vertically on small screens (less than 576px):</p>
+            <div class="card-deck">
+              <div class="card bg-primary">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the first card</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the second card</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the third card</p>
+                </div>
+              </div>
+              <div class="card bg-danger">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the fourth card</p>
+                </div>
+              </div>  
+            </div>
+            <hr>
+
+            <h2>Card Group</h2>
+            <p>The .card-group class is similar to .card-deck, which creates an <strong>equal height and width</strong> grid of cards.</p>
+            <p>However, the .card-group class removes left and right margins between each card.</p>
+            <p>In this example we have added extra content to the first card, to make it taller. Notice how the other cards follow.</p>
+            <p><strong>Note:</strong> The cards are displayed vertically on small screens (less than 576px), <strong>WITH</strong> top and bottom margin:</p>
+            <div class="card-group">
+              <div class="card bg-primary">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the first card</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                  <p class="card-text">Some more text to increase the height</p>
+                </div>
+              </div>
+              <div class="card bg-warning">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the second card</p>
+                </div>
+              </div>
+              <div class="card bg-success">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the third card</p>
+                </div>
+              </div>
+              <div class="card bg-danger">
+                <div class="card-body text-center">
+                  <p class="card-text">Some text inside the fourth card</p>
+                </div>
+              </div>  
+            </div>
+            
+        </div>
+        <hr>
+
+
+
+   </div>
+</div>
